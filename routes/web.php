@@ -51,3 +51,8 @@ Route::post('/formsubmitted', function (Request $request) {
 })->name('formsubmitted');
 
 Route::resource('posts', PostController::class);
+
+
+Route::get('/empleos', function () {
+    return view('empleos');
+});
