@@ -25,7 +25,7 @@
                         <option value="javascript">JavaScript</option>
                         <option value="python">Python</option>                        
                         <option value="react">React</option>
-                        <option value="nodejs">Node.js</option>
+                        <option value="node">Node.js</option>
                     </optgroup>    
                     <option value="java">Java</option>
                     <hr />
@@ -35,6 +35,7 @@
                     <hr />
                     <option value="ruby">Ruby</option>
                     <option value="php">PHP</option>
+                    <option value="mobile">Desarrollo Móvil</option>
                 </select>
 
                 <select name="location" id="filter-location">
@@ -49,9 +50,9 @@
                 <select name="experience-level" id="experience-level">
                     <option value="">Nivel de Experiencia</option>
                     <option value="junior">Junior</option>
-                    <option value="mid">Mid-level</option>
+                    <option value="mid-level">Mid-level</option>
                     <option value="senior">Senior</option>
-                    <option value="lead">Lead</option>
+                    <option value="mid">Lead</option>
                 </select>                
             </div>            
         </form>
@@ -65,7 +66,13 @@
             <!-- Aquí se generarán dinámicamente los empleo -->
 
         </div>
-        <nav class="pagination">
+
+        <devjobs-pagination>
+
+        </devjobs-pagination>            
+
+        
+        <!-- <nav class="pagination">
             <a href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M15 6l-6 6l6 6" /></svg>
             </a>
@@ -75,7 +82,7 @@
             <a href="#">4</a>
             <a href="#">5</a>
             <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M9 6l6 6l-6 6" /></svg></a>
-        </nav>
+        </nav> -->
     </section>    
 
 

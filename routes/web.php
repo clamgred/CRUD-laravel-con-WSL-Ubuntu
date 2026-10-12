@@ -56,3 +56,7 @@ Route::resource('posts', PostController::class);
 Route::get('/empleos', function () {
     return view('empleos');
 });
+
+Route::get('/react', function () {
+    return view('react');
+});

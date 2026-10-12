@@ -8,7 +8,25 @@
 <nav>
     <a href="{{ url('/empleos') }}">Empleos</a>
 </nav>
-<div>
-    <a href="">Publicar empleo</a>
-    <a href="">Iniciar sesión</a>
+<div>    
+    <devjobs-avatar
+        service="github"
+        username="lamgred"
+        size="24">
+    </devjobs-avatar>        
+    <devjobs-avatar
+        service="google"
+        username="google.com"
+        size="32">
+    </devjobs-avatar>    
+    <devjobs-avatar
+        service="google"
+        username="netflix.com"
+        size="32">
+    </devjobs-avatar>      
+    <devjobs-avatar
+        service="google"
+        username="vercel.com"
+        size="32">
+    </devjobs-avatar>      
 </div>

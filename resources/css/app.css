@@ -428,7 +428,7 @@ footer {
   }
 }
 
-.pagination{
+/* .pagination{
   display: flex;
   justify-content: center;
   gap: 0.5rem;
@@ -460,8 +460,8 @@ footer {
     }
   }
   
-}
-
+}  
+ */
 .button-apply-job{
   background : #09f;
   &.is-applied{
